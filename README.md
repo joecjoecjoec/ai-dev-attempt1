@@ -72,7 +72,8 @@ The backend is implemented using FastAPI and exposes the following endpoints:
 - `GET /health` — Health check endpoint  
 - `POST /query` — Submit a query request
 
-The backend strictly follows the OpenAPI specification and can be validated through Swagger UI.
+ The backend strictly follows the OpenAPI specification and can be validated through Swagger UI.
+ 
 ---
 
 ## Database
