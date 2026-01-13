@@ -73,7 +73,7 @@ The backend is implemented using FastAPI and exposes the following endpoints:
 - `POST /query` — Submit a query request
 
  The backend strictly follows the OpenAPI specification and can be validated through Swagger UI.
- 
+
 ---
 
 ## Database
@@ -88,9 +88,9 @@ to other databases (e.g. PostgreSQL) if needed.
 ---
 
 ## Containerization
-Containerization with Docker is planned as a future improvement.
+The application can be containerized using Docker.
 
-The current version is intended to be run locally using Python and uvicorn to keep the setup lightweight and transparent.
+A Dockerfile is provided to build and run the backend API in a containerized environment.
 
 ---
 
