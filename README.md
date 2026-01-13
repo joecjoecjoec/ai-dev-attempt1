@@ -94,9 +94,12 @@ A Dockerfile is provided to build and run the backend API in a containerized env
 ---
 
 ## Testing
-Basic testing is planned as a future improvement.
+Basic integration tests are included using pytest and FastAPI TestClient.
 
-The current focus of the project is on API structure, documentation, and reproducibility rather than extensive test coverage.
+Tests can be run locally with:
+```bash
+pytest
+```
 
 ---
 
