@@ -111,7 +111,7 @@ Deployment is not required for the current version, as the project focuses on lo
 ---
 
 ## CI/CD
-A CI pipeline is planned to automatically run tests on each push.
+A CI pipeline is configured using GitHub Actions to automatically run pytest on each push and pull request.
 
 This has been left out of the current version to keep the project scope focused and minimal.
 
