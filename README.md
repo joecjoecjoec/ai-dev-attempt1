@@ -16,13 +16,16 @@ The project emphasizes clarity, reproducibility, and clean system structure rath
 
 ---
 
-## AI-assisted Development
-AI tools were used throughout the development process to:
-- Assist with code generation and refactoring
-- Help structure the project and directory layout
-- Improve documentation quality and clarity
+## AI-assisted Development and MCP Usage
 
-The focus was on using AI as a development assistant rather than as the core application logic.
+AI tools were used throughout the development process to assist with code generation,
+project structuring, debugging, and documentation.
+
+In addition, a minimal MCP-style tool is included (`mcp_server.py`) to demonstrate
+how AI tools could be exposed via an MCP-compatible interface.
+
+The current implementation provides a simple echo tool as a placeholder,
+illustrating the intended integration pattern.
 
 ---
 
