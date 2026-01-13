@@ -18,22 +18,18 @@ The project emphasizes clarity, reproducibility, and clean system structure rath
 
 ## AI-assisted Development and MCP Usage
 
-AI tools were used throughout the development process to assist with code generation,
-project structuring, debugging, and documentation.
+AI tools were used throughout the development process to assist with:
 
-In addition, a minimal MCP-style tool is included (`mcp_server.py`) to demonstrate
-how AI tools could be exposed via an MCP-compatible interface.
+- Code generation and refactoring
+- Project structuring and architectural decisions
+- Debugging and error analysis
+- Documentation writing and refinement
 
-The current implementation provides a simple echo tool as a placeholder,
-illustrating the intended integration pattern.
+In addition, the project is designed to be compatible with an MCP-based workflow.
 
----
+A minimal MCP-style tool (`mcp_server.py`) is included as a placeholder to demonstrate how AI tools could be exposed via an MCP-compatible interface. The current implementation provides a simple echo tool to illustrate the intended integration pattern.
 
-## MCP Usage
-This project is designed to be compatible with an MCP-based workflow.
-
-In a full implementation, an MCP server could be added to expose tools for querying and reasoning over documentation content.  
-The current version focuses on the backend API and OpenAPI contract, with MCP integration planned as a future extension.
+In a full implementation, an MCP server could be extended to expose tools for querying and reasoning over documentation content. The current version focuses on the backend API and OpenAPI contract, with MCP integration planned as a future extension.
 
 ---
 
