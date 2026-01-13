@@ -23,4 +23,6 @@ jobs:
           pip install fastapi uvicorn pytest httpx
 
       - name: Run tests
+        env:
+          PYTHONPATH: .
         run: pytest
