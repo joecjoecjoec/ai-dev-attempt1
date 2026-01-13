@@ -72,7 +72,7 @@ The backend is implemented using FastAPI and exposes the following endpoints:
 - `POST /query` — Submit a query request
 
 The backend strictly follows the OpenAPI specification and can be validated through Swagger UI.
-
+The backend uses FastAPI and includes a small persistence layer backed by SQLite.
 ---
 
 ## Database
