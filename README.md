@@ -76,9 +76,13 @@ The backend strictly follows the OpenAPI specification and can be validated thro
 ---
 
 ## Database
-No persistent database is required for the current version.
+A lightweight SQLite database is used for persistence.
 
-The project is structured so that a database layer (e.g. SQLite or PostgreSQL) can be added easily if needed.
+The database is initialized automatically when the backend starts.
+Submitted queries are stored in a local SQLite file (`backend/app.db`).
+
+This minimal database layer demonstrates persistence and can be extended
+to other databases (e.g. PostgreSQL) if needed.
 
 ---
 
