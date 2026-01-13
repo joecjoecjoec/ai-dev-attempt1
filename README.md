@@ -66,13 +66,13 @@ The `openapi.yaml` file serves as the contract between frontend and backend and 
 ---
 
 ## Backend Implementation
+
 The backend is implemented using FastAPI and exposes the following endpoints:
 
-- `GET /health` — Health check endpoint
+- `GET /health` — Health check endpoint  
 - `POST /query` — Submit a query request
 
 The backend strictly follows the OpenAPI specification and can be validated through Swagger UI.
-The backend uses FastAPI and includes a small persistence layer backed by SQLite.
 ---
 
 ## Database
