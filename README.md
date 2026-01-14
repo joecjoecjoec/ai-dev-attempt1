@@ -100,6 +100,12 @@ Tests can be run locally with:
 ```bash
 pytest
 ```
+---
+
+### Frontend (Demo)
+
+The frontend is a minimal static HTML demo used to validate the API integration.
+It sends requests to the backend and displays mock responses returned by the API.
 
 ---
 
